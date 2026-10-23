@@ -1,0 +1,156 @@
+[
+  {
+    "local_id": "P01",
+    "title": "Collect 3–5 real user discussions",
+    "owner": "Zaki",
+    "priority": "Critical",
+    "due_date": "2026-10-24",
+    "acceptance_criteria": "Consent, anonymised notes and findings mapped to requirements.",
+    "requirement": "O1",
+    "status": "Open",
+    "youtrack_id": null
+  },
+  {
+    "local_id": "P02",
+    "title": "Review literature and label guide",
+    "owner": "Akbar",
+    "priority": "Critical",
+    "due_date": "2026-10-24",
+    "acceptance_criteria": "Team verifies sources and confirms label boundaries.",
+    "requirement": "FR08",
+    "status": "Open",
+    "youtrack_id": null
+  },
+  {
+    "local_id": "P03",
+    "title": "Review architecture and API",
+    "owner": "Zaki",
+    "priority": "Critical",
+    "due_date": "2026-10-24",
+    "acceptance_criteria": "Akbar reviews inference fields and failures; decisions recorded.",
+    "requirement": "FR01–FR06",
+    "status": "Open",
+    "youtrack_id": null
+  },
+  {
+    "local_id": "P04",
+    "title": "Obtain supervisor feedback",
+    "owner": "Both",
+    "priority": "Critical",
+    "due_date": "2026-10-24",
+    "acceptance_criteria": "Actual dated comments, responses and revisions.",
+    "requirement": "All",
+    "status": "Open",
+    "youtrack_id": null
+  },
+  {
+    "local_id": "P05",
+    "title": "Create YouTrack project and tasks",
+    "owner": "Zaki",
+    "priority": "Critical",
+    "due_date": "2026-10-24",
+    "acceptance_criteria": "Actual project link; tasks assigned to real accounts.",
+    "requirement": "NFR07",
+    "status": "Open",
+    "youtrack_id": null
+  },
+  {
+    "local_id": "P06",
+    "title": "Peer review and tag submission",
+    "owner": "Both",
+    "priority": "Critical",
+    "due_date": "2026-10-24",
+    "acceptance_criteria": "Review, verify access, merge accepted changes and tag exact commit.",
+    "requirement": "All",
+    "status": "Open",
+    "youtrack_id": null
+  },
+  {
+    "local_id": "P07",
+    "title": "Build capture and validation spike",
+    "owner": "Zaki",
+    "priority": "High",
+    "due_date": "2026-10-30",
+    "acceptance_criteria": "V01/V02/V11 on controlled fixtures.",
+    "requirement": "FR01/FR02",
+    "status": "Open",
+    "youtrack_id": null
+  },
+  {
+    "local_id": "P08",
+    "title": "Annotate 50-region pilot",
+    "owner": "Akbar",
+    "priority": "High",
+    "due_date": "2026-11-06",
+    "acceptance_criteria": "Provenance, independent review and ambiguity log.",
+    "requirement": "FR08",
+    "status": "Open",
+    "youtrack_id": null
+  },
+  {
+    "local_id": "P09",
+    "title": "Prepare dataset and splits",
+    "owner": "Akbar",
+    "priority": "High",
+    "due_date": "2026-11-20",
+    "acceptance_criteria": "Target 400–600 accepted regions, deduplication and grouped manifests.",
+    "requirement": "FR08",
+    "status": "Open",
+    "youtrack_id": null
+  },
+  {
+    "local_id": "P10",
+    "title": "Build UI and API against mock inference",
+    "owner": "Zaki",
+    "priority": "High",
+    "due_date": "2026-11-20",
+    "acceptance_criteria": "V03–V06 and keyboard review.",
+    "requirement": "FR03–FR06",
+    "status": "Open",
+    "youtrack_id": null
+  },
+  {
+    "local_id": "P11",
+    "title": "Run model comparisons",
+    "owner": "Akbar",
+    "priority": "High",
+    "due_date": "2026-12-04",
+    "acceptance_criteria": "Versioned validation experiments and selected configurations.",
+    "requirement": "FR07",
+    "status": "Open",
+    "youtrack_id": null
+  },
+  {
+    "local_id": "P12",
+    "title": "Integrate model and app",
+    "owner": "Both",
+    "priority": "High",
+    "due_date": "2026-12-18",
+    "acceptance_criteria": "Contract checks and explicit failure states.",
+    "requirement": "FR01–FR06",
+    "status": "Open",
+    "youtrack_id": null
+  },
+  {
+    "local_id": "P13",
+    "title": "Evaluate held-out results and usability",
+    "owner": "Both",
+    "priority": "High",
+    "due_date": "2027-01-08",
+    "acceptance_criteria": "Metrics, denominators, error analysis and actual user observations.",
+    "requirement": "O5",
+    "status": "Open",
+    "youtrack_id": null
+  },
+  {
+    "local_id": "P14",
+    "title": "Final report and rehearsal",
+    "owner": "Both",
+    "priority": "Normal",
+    "due_date": "2027-01-15",
+    "acceptance_criteria": "Reproducible instructions, limitations and supervisor review.",
+    "requirement": "All",
+    "status": "Open",
+    "youtrack_id": null
+  }
+]

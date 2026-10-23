@@ -1,0 +1,21 @@
+@startuml
+left to right direction
+actor Reviewer
+actor "Model developer" as Dev
+rectangle "Web review system" {
+usecase "UC01 Start scan" as U1
+usecase "Validate target" as V
+usecase "UC02 Inspect findings" as U2
+usecase "UC03 Review finding" as U3
+usecase "UC04 Export report" as U4
+usecase "UC05 Prepare dataset" as U5
+usecase "UC06 Evaluate model" as U6
+}
+Reviewer -- U1
+Reviewer -- U2
+Reviewer -- U3
+Reviewer -- U4
+U1 ..> V : <<include>>
+Dev -- U5
+Dev -- U6
+@enduml

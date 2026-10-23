@@ -1,0 +1,6 @@
+flowchart LR
+Reviewer -->|Approved URL and judgement| System[Web review system]
+System -->|Evidence and report| Reviewer
+Website[Public website] -->|Untrusted content| System
+Developer[Model developer] -->|Versioned model| System
+System <-->|Save and retrieve| Store[Private evidence store]

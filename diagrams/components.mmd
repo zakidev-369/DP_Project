@@ -1,0 +1,8 @@
+flowchart TD
+UI[React UI] <-->|JSON HTTP| API[FastAPI]
+API <-->|Jobs and results| DB[(SQLite)]
+Worker[Isolated Playwright worker] <-->|Atomic claim and results| DB
+Worker -->|Restricted requests| Page[Public page]
+Worker <-->|Regions and findings| Model[Inference module]
+Worker -->|Capture evidence| Files[Private files]
+API -->|Read evidence| Files
